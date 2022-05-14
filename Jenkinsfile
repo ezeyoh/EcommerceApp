@@ -23,7 +23,7 @@ node{
              sh 'sudo docker login -u "ezeyoh" -p "56727882Eb@" docker.io'
              //sh 'sudo docker push upasanatestdocker/mysql'
              //sh 'sudo docker push upasanatestdocker/job1_web1.0'
-             sh 'sudo docker push upasanatestdocker/job1_web2.0'
+             sh 'sudo docker push ezeyoh321/ecommproject'
             // sh 'docker push upasanatestdocker/mysql'
           
     }
