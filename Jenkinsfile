@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git credentialsId: '4cc785e9-441d-4818-a248-2bfb2148004d', url: 'https://github.com/VardhanNS/phpmysql-app.git'
+        git credentialsId: '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', url: 'https://github.com/ezeyoh/EcommerceApp.git'
     }
     
     stage('Run Docker Compose File')
@@ -20,7 +20,7 @@ node{
         */
         //docker.withRegistry( 'https://registry.hub.docker.com', 'DockerHubPassword' ) {
              
-             sh 'sudo docker login -u "ezeyoh" -p "56727882Eb@" docker.io'
+             sh 'sudo docker login -u "ezeyoh.deriv@gmail.com" -p "56727882Eb@" docker.io'
              //sh 'sudo docker push upasanatestdocker/mysql'
              //sh 'sudo docker push upasanatestdocker/job1_web1.0'
              sh 'sudo docker push ezeyoh321/ecommproject'
