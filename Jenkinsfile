@@ -2,7 +2,7 @@ node{
 
     stage('SCM Checkout')
     {
-        git credentialsId: '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', url: 'https://github.com/ezeyoh/EcommerceApp.git'
+        git credentialsId: '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', url: 'https://github.com/ezeyoh/EcommerceApp.git'
     }
     
     stage('Run Docker Compose File')
